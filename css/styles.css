@@ -1,0 +1,174 @@
+/* first section */
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-link {
+  font-family: Montserrat;
+  font-weight: lighter;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 40px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.a {
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+
+
+
+/* feature section */
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: white;
+  position: relative;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.p {
+  line-height: 1.5;
+  color: #8f8f8f;
+}
+
+
+
+
+
+/* testimonial section */
+#testimonials {
+  color: white;
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.testimonial-images {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+
+
+
+ /* card section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+
+
+
+/* mobile section */
+@media(max-width:1028px)
+ {
+  #title {
+    text-align: center;
+        }
+  .a {
+    position: static;
+    transform: rotate(0);
+    }
+}
+
+
+
+
+/* footer section */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.ctah3 {
+  color: white;
+  font-family: Montserrat;
+  font-weight: bold;
+  line-height: 2;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#footer {
+  text-align: center;
+  padding: 5% 15%
+}
+
+.fa {
+  margin: 8px;
+}
+
+.Copyright {
+  color: #8f8f8f;
+  line-height: 2;
+}
